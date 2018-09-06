@@ -1,0 +1,60 @@
+<resources>
+    <!--常用字体  UE说app内的字体大小就只有这几个-->
+    <dimen name="live_common_font_36">18dp</dimen>
+    <dimen name="live_common_font_48">24dp</dimen>
+    <dimen name="live_common_font_32">16dp</dimen>
+    <dimen name="live_common_font_28">14dp</dimen>
+    <dimen name="live_common_font_24">12dp</dimen>
+    <dimen name="live_common_font_20">10dp</dimen>
+    <dimen name="live_common_space_20">10dp</dimen>
+    <dimen name="live_common_space_30">15dp</dimen>
+    <dimen name="live_common_space_40">20dp</dimen>
+    <dimen name="live_common_space_60">30dp</dimen>
+
+    <dimen name="md_common_shape_circle">5dp</dimen><!--圆角-->
+
+    <dimen name="md_dialog_frame_margin">@dimen/live_common_space_60</dimen>
+    <dimen name="md_title_frame_margin_bottom">12dp</dimen>
+    <dimen name="md_title_frame_margin_bottom_less">6dp</dimen>
+    <dimen name="md_notitle_vertical_padding">@dimen/live_common_space_40</dimen>
+
+    <dimen name="md_title_min">@dimen/live_common_space_40</dimen>
+
+    <dimen name="md_notitle_vertical_padding_more">@dimen/live_common_space_40</dimen>
+
+    <dimen name="md_content_padding_top">@dimen/live_common_space_20</dimen>
+    <dimen name="md_content_padding_bottom">5dp</dimen>
+    <dimen name="md_simplelistitem_padding_top">8dp</dimen>
+
+    <dimen name="md_button_min_width">72dp</dimen>
+    <dimen name="md_button_textpadding_horizontal">1dp</dimen>
+    <dimen name="md_button_padding_horizontal">8dp</dimen>
+    <dimen name="md_button_padding_vertical">4dp</dimen>
+    <dimen name="md_button_padding_horizontal_internalexternal">32dp</dimen>
+    <!-- button 侧边距 -->
+    <dimen name="md_button_padding_frame_side">@dimen/live_common_space_30</dimen>
+    <dimen name="md_button_padding_frame_mid">@dimen/live_common_space_20</dimen>
+    <!-- button 上下边距距 -->
+    <dimen name="md_button_frame_vertical_padding">@dimen/live_common_space_40</dimen>
+    <dimen name="md_neutral_button_margin">5dp</dimen>
+    <dimen name="md_button_height">40dp</dimen>
+    <dimen name="md_title_textsize">@dimen/live_common_font_36</dimen>
+    <dimen name="md_content_textsize">@dimen/live_common_font_28</dimen>
+    <dimen name="md_button_textsize">@dimen/live_common_font_32</dimen>
+    <dimen name="md_listitem_textsize">@dimen/live_common_font_32</dimen>
+    <dimen name="md_listitem_height">50dp</dimen>
+    <dimen name="md_listitem_control_margin">6dp</dimen>
+    <dimen name="md_icon_margin">16dp</dimen>
+    <dimen name="md_icon_max_size">48dp</dimen>
+    <dimen name="md_listitem_margin_left">24dp</dimen>
+    <dimen name="md_action_corner_radius">2dp</dimen>
+    <dimen name="md_divider_height">1dp</dimen>
+
+    <dimen name="md_bg_corner_radius">10dp</dimen>
+    <dimen name="md_listitem_vertical_margin">12dp</dimen>
+    <dimen name="md_listitem_vertical_margin_choice">8dp</dimen>
+
+    <dimen name="md_dialog_max_width">354dp</dimen>
+    <dimen name="md_dialog_vertical_margin">144dp</dimen>
+    <dimen name="md_dialog_horizontal_margin">28dp</dimen>
+</resources>

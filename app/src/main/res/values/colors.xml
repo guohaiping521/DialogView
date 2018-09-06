@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="live_common_blue_normal">#45b7ff</color>
+    <color name="live_common_blue_unenable">#d8d8d8</color>
+    <color name="md_btn_selected">#33969696</color>
+
+    <color name="md_edittext_error">#DD2C00</color>
+
+    <color name="live_common_gray_1">#333333</color>
+    <color name="live_common_gray_2">#666666</color>
+    <color name="live_common_gray_3">#999999</color>
+
+    <color name="live_common_btn_stroke">#d8d8d8</color>
+    <!--弹框背景-->
+    <color name="live_common_dialog_bg">#f8f8f8</color>
+    <color name="transparent">#00000000</color>
+</resources>

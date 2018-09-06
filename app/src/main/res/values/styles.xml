@@ -1,0 +1,84 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+    <style name="Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="MD_Classics" parent="android:style/Theme.Dialog"  >
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="md_divider">@color/live_common_btn_stroke</item>
+        <item name="md_list_selector">@drawable/item_selector</item>
+        <item name="md_btn_positive_selector">@drawable/btn_selector_classics_blue</item>
+        <item name="md_btn_neutral_selector">@drawable/btn_selector_classics_blue</item>
+        <item name="md_btn_negative_selector">@drawable/btn_selector_classics</item>
+
+        <item name="md_background_color">@color/live_common_dialog_bg</item>
+
+        <item name="md_title_color">@color/live_common_gray_1</item>
+        <item name="md_content_color">@color/live_common_gray_3</item>
+        <item name="md_positive_color">@android:color/white</item>
+        <item name="md_neutral_color">@android:color/white</item>
+        <item name="md_negative_color">@color/live_common_gray_2</item>
+
+        <item name="android:windowAnimationStyle">@style/MD_WindowAnimation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="Transparent_Bg" parent="@style/MD_Classics">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="md_background_color">@android:color/transparent</item>
+    </style>
+
+    <style name="waiting_dialog_theme" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="MD_Transparent_Theme" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="md_background_color">@color/transparent</item>
+    </style>
+
+    <style name="MD_ActionButtonStacked" parent="@style/MD_ActionButton" tools:ignore="NewApi">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">@dimen/md_button_padding_horizontal_internalexternal</item>
+        <item name="android:paddingStart">@dimen/md_button_padding_horizontal_internalexternal
+        </item>
+        <item name="android:paddingRight">@dimen/md_button_padding_horizontal_internalexternal
+        </item>
+        <item name="android:paddingEnd">@dimen/md_button_padding_horizontal_internalexternal</item>
+    </style>
+
+    <style name="MD_ActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/md_button_height</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="MD_ActionButton.Text" tools:ignore="NewApi">
+        <item name="android:textSize">@dimen/md_button_textsize</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:minWidth">@dimen/md_button_min_width</item>
+        <item name="android:paddingLeft">@dimen/md_button_textpadding_horizontal</item>
+        <item name="android:paddingRight">@dimen/md_button_textpadding_horizontal</item>
+    </style>
+
+    <style name="MD_WindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+
+</resources>
