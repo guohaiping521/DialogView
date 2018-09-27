@@ -43,8 +43,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 DialogUtils.showCdialog(MainActivity.this);
             }
-        });
-*/
+        });*/
         final TextView textView = (TextView) this.findViewById(R.id.textview);
 
         final FrameLayout frameLayout = (FrameLayout) this.findViewById(R.id.frameLayout);
