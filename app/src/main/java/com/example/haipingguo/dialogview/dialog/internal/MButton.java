@@ -43,6 +43,7 @@ public class MButton extends TextView {
      * MDRootLayout's onMeasure, and we must be measured after calling this.
      */
   /* package */ void setStacked(boolean stacked, boolean force) {
+      invalidate();
         if (this.stacked != stacked || force) {
 
             setGravity(

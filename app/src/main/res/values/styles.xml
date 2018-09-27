@@ -6,15 +6,13 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowNoTitle">false</item>
     </style>
-    <style name="Dialog" parent="Theme.AppCompat.Dialog">
+    <style name="Dialog" >
         <item name="android:windowNoTitle">false</item>
         <item name="android:windowIsFloating">true</item>
     </style>
     <style name="MD_Classics" parent="android:style/Theme.Dialog"  >
         <item name="android:windowNoTitle">true</item>
-
         <item name="md_divider">@color/live_common_btn_stroke</item>
         <item name="md_list_selector">@drawable/item_selector</item>
         <item name="md_btn_positive_selector">@drawable/btn_selector_classics_blue</item>

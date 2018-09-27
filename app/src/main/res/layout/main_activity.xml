@@ -6,19 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:text="mDialog"
-        tools:ignore="RtlCompat" />
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="alertDialog"
-        app:layout_constraintLeft_toRightOf="@+id/button1" />
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123"/>
+        <Button
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="change"/>
+    </FrameLayout>
+
+    <!--  <Button
+          android:id="@+id/button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="12dp"
+          android:text="mDialog"
+          tools:ignore="RtlCompat" />
+
+      <Button
+          android:id="@+id/button2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="alertDialog"
+          app:layout_constraintLeft_toRightOf="@+id/button1" />-->
 
 </android.support.constraint.ConstraintLayout>
