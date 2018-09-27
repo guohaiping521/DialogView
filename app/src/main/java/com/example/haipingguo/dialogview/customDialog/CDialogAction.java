@@ -4,5 +4,6 @@ public enum CDialogAction {
     POSITIVE,
     NEUTRAL,
     NEGATIVE,
+
     RIGHTICON
 }
